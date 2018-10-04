@@ -1,6 +1,26 @@
+from SortDates import sortDate
+from datetime import date
+from Queue import *
 
 
 def main():
+
+    date1 = date(2018,01,12)
+    date2 = date(2018,01,12)
+    date3 = date(2018,01,13)
+    date4 = date(2018,01,10)
+
+    print ('Sorted Dated Starting')
+    one = ('apple', date1)
+    two = ('banana', date2)
+    three = ('orange', date3)
+    four = ('grape', date4)
+    listOfObjects = [one, two, three, four]
+    q = sortDate(listOfObjects, 1)
+    while q.not_empty:
+        c = q.get()
+        print c
+
     """
     education: 1 = college, 2 = University, 3 = Masters
     travel: 0,1,2,3,4,5,6,7,8,9,10 = 0% to 100%
@@ -8,7 +28,7 @@ def main():
     location:
     :return:
     """
-
+    sortDate()
     sk1 = [('Java', 4), ('python', 2), ('php',4), ('JavaScript', 3),('MySQL', 4), ('React', 2)]
     sk2 = [('C#', 2), ('python', 2), ('php', 4), ('SQL', 4), ('Angular', 2)]
     sk3 = [('C', 4), ('C++', 2), ('JavaScript', 3), ('MySQL', 4), ('React', 2)]
