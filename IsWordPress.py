@@ -18,5 +18,5 @@ def isThisWordPress(url):
     return found_wp
 
 
-wp_site = isThisWordPress('https://lexcor.ca/')
+wp_site = isThisWordPress('http://www.oxfordconnection.ca/')
 print(wp_site)
