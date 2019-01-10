@@ -1,0 +1,5 @@
+create table watchlink(wid INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), FOREIGN KEY rid(rid) REFERENCES retailer(rid));
+
+create table watchlink(wid INT NOT NULL AUTO_INCREMENT PRIMARY KEY, rid INT NOT NULL, name VARCHAR(255), FOREIGN KEY rid(rid) REFERENCES retailer(rid));
+
+create table retailer_link(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), link TEXT);

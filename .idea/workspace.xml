@@ -1,8 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc97a24-63ae-45c9-a32a-23f1e304966f" name="Default" comment="">
+    <list default="true" id="bbc97a24-63ae-45c9-a32a-23f1e304966f" name="Default" comment="3rd commit">
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/PriceWatchApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/action_provision" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/action_set_name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/box_meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/creator_uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/index_uuid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/private_key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/synced_folders" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/machines/default/virtualbox/vagrant_cwd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/.vagrant/rgloader/loader.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app.wsgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/dbconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/abstracts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/catch23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/charsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/connection_cext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/cursor_cext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/custom_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/dbapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/compiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/django/validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/errorcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/fabric/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/fabric/balancing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/fabric/caching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/fabric/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/locales/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/locales/eng/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/locales/eng/client_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/optionfiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/mysql/connector/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/Python-ast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/Python.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/abstract.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/asdl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/ast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/bitset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/boolobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/bufferobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/bytearrayobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/bytes_methods.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/bytesobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/cStringIO.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/cellobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/ceval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/classobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/cobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/code.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/codecs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/compile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/complexobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/datetime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/descrobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/dictobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/dtoa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/enumobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/errcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/eval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/fileobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/floatobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/frameobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/funcobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/genobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/graminit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/grammar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/import.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/intobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/intrcheck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/iterobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/listobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/longintrepr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/longobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/marshal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/memoryobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/metagrammar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/methodobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/modsupport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/moduleobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/object.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/objimpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/opcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/osdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/parsetok.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/patchlevel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pgen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pgenheaders.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/py_curses.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyarena.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pycapsule.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyctype.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pydebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyerrors.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyexpat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyfpe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pygetopt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pymacconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pymactoolbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pymath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pymem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pyport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pystate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pystrcmp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pystrtod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pythonrun.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/pythread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/rangeobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/setobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/sliceobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/stringobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/structmember.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/structseq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/symtable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/sysmodule.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/timefuncs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/token.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/traceback.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/tupleobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/ucnhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/unicodeobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/warnings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/include/python2.7/weakrefobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/UserDict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/_abcoll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/_weakrefset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/codecs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/copy_reg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/aliases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/ascii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/base64_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/big5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/big5hkscs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/bz2_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/charmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1026.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1140.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1251.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1252.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1253.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1254.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1255.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1256.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1257.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp1258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp424.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp437.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp500.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp720.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp737.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp775.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp850.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp852.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp855.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp856.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp857.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp858.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp860.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp861.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp862.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp863.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp864.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp865.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp866.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp869.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp874.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp875.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp932.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp949.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/cp950.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/euc_jis_2004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/euc_jisx0213.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/euc_jp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/euc_kr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/gb18030.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/gb2312.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/gbk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/hex_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/hp_roman8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/hz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/idna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp_2004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_jp_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso2022_kr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/iso8859_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/johab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/koi8_r.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/koi8_u.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/latin_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_arabic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_centeuro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_croatian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_cyrillic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_farsi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_greek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_iceland.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_latin2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_roman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_romanian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mac_turkish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/mbcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/palmos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/ptcp154.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/punycode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/quopri_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/raw_unicode_escape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/rot_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/shift_jis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/shift_jis_2004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/shift_jisx0213.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/string_escape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/tis_620.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/undefined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/unicode_escape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/unicode_internal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_16_be.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_16_le.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_32_be.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_32_le.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/utf_8_sig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/uu_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/encodings/zlib_codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/fnmatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/genericpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/Python-2.7.egg-info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_bsddb.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_cn.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_hk.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_iso2022.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_jp.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_kr.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_codecs_tw.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_csv.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_ctypes.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_ctypes_test.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_curses.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_curses_panel.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_elementtree.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_hashlib.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_hotshot.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_json.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_lsprof.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_multibytecodec.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_multiprocessing.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_sqlite3.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_ssl.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/_testcapi.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/audioop.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/bz2.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/crypt.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/dbm.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/fpectl.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/future_builtins.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/linuxaudiodev.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/mmap.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/nis.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/ossaudiodev.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/parser.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/pyexpat.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/readline.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/resource.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/lib-dynload/termios.x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/linecache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/locale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/no-global-site-packages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/ntpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/orig-prefix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/posixpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/sre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/sre_compile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/sre_constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/sre_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/stat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/venv/lib/python2.7/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/app/app/web_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/bootpython.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/database_schema/schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriceWatchApp/ubuntu-xenial-16.04-cloudimg-console.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_Scrapping/web_scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_Scrapping/web_scrapping.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +354,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonLibrary$web_scrapping.coverage" NAME="web_scrapping Coverage Results" MODIFIED="1547161705658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_Scrapping" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web_Scrapping/web_scrapping.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +402,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DirMaker.py" />
         <option value="$PROJECT_DIR$/N_Gram.py" />
         <option value="$PROJECT_DIR$/skills.txt" />
         <option value="$PROJECT_DIR$/CompareResToJob.py" />
@@ -93,6 +452,7 @@
         <option value="$PROJECT_DIR$/googleMaps.py" />
         <option value="$PROJECT_DIR$/yelpSearch.py" />
         <option value="$PROJECT_DIR$/IsWordPress.py" />
+        <option value="$PROJECT_DIR$/Web_Scrapping/web_scrapping.py" />
       </list>
     </option>
   </component>
@@ -108,7 +468,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonLibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="Web_Scrapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IsWordPress">
+  <component name="RunManager" selected="Python.web_scrapping">
     <configuration name="IsWordPress" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="library" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,28 +531,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IsWordPress.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="StatsForChoices" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="library" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Date_Picker" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Date_Picker/StatsForChoices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,6 +627,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_Scrapping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web_Scrapping/web_scrapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yelpSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="library" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,19 +705,19 @@
     <list>
       <item itemvalue="Python.TutorProfitablity" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.StatsForChoices" />
       <item itemvalue="Python.IsWordPress" />
       <item itemvalue="Python.testSelenium" />
       <item itemvalue="Python.googleMaps" />
       <item itemvalue="Python.yelpSearch" />
+      <item itemvalue="Python.web_scrapping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.web_scrapping" />
         <item itemvalue="Python.IsWordPress" />
         <item itemvalue="Python.yelpSearch" />
         <item itemvalue="Python.googleMaps" />
         <item itemvalue="Python.testSelenium" />
-        <item itemvalue="Python.StatsForChoices" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +731,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500411392242</updated>
-      <workItem from="1547160875642" duration="499000" />
+      <workItem from="1547160875642" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1538689913552</created>
@@ -372,11 +747,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539527842655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3rd commit">
+      <created>1547161412191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547161412191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="499000" />
+    <option name="totallyTimeSpent" value="1018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -389,7 +771,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="248" y="340" width="1657" height="395" id="Run" order="2" sideWeight="0.4975" weight="0.2864675" />
+      <window_info anchor="bottom" x="248" y="340" width="1657" height="395" id="Run" order="2" sideWeight="0.4975" visible="true" weight="0.28587195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,16 +830,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Investing/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/map.py" />
     <entry file="file://$PROJECT_DIR$/Investing/GDP.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,7 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +1134,16 @@
           <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_Scrapping/web_scrapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,8 +17,8 @@ class UpdateThread(Thread):
             time.sleep(10)
 
     def downloadValue(self):
-        page = requests.get('https://bagreligion.com/product/prada-saffiano-lux-galleria-double-zip-tote/')
-        # page = requests.get('http://www.home-tyme.com/product/bacon-wrapped-scallops/')
+        # page = requests.get('https://bagreligion.com/product/prada-saffiano-lux-galleria-double-zip-tote/')
+        page = requests.get('http://www.home-tyme.com/product/bacon-wrapped-scallops/')
         tree = html.fromstring(page.content)
         price = tree.xpath('//p/ins/span[@class="woocommerce-Price-amount amount"]/text()')
         print(price[0])

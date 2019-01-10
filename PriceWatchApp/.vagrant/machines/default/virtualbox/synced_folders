@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/app":{"nfs":{"mount_options":["dmode=777","fmode=666"]},"guestpath":"/var/www/app","hostpath":"D:/gtohill/PythonProjects/PriceWatchApp/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/gtohill/PythonProjects/PriceWatchApp","disabled":false,"__vagrantfile":true}}}
