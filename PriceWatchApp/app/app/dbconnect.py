@@ -2,11 +2,11 @@ import mysql.connector
 from datetime import datetime, date, time
 
 
-cnx = mysql.connector.connect(user='root', password='root', host='localhost', database='priceapp')
+cnx = mysql.connector.connect(user='root', password='Gt153328@', host='localhost', database='priceapp')
 
 
-#COMPANY RELATED QUERIES
-#select a company
+# COMPANY RELATED QUERIES
+# select a company
 def select_retailer():
     try:
         cursor = cnx.cursor()
