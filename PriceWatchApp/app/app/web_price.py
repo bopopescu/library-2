@@ -23,6 +23,9 @@ class UpdateThread(Thread):
         price = tree.xpath('//p/ins/span[@class="woocommerce-Price-amount amount"]/text()')
         return price[0]
 
+
+print(UpdateThread().downloadValue())
+
 """
 myThread = UpdateThread()
 myThread.start()

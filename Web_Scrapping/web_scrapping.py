@@ -1,10 +1,9 @@
-#from lxml import html
+from lxml import html
 import requests
 import time
 from threading import Thread
-import datetime
-import pprint
-'''
+
+
 class UpdateThread(Thread):
 
     def __init__(self, findMeACivic):
@@ -66,13 +65,36 @@ def test_scrap(url, path):
 
 
 url = 'https://www.walmart.ca/en/ip/huggies-snug-dry-diapers-economy-pack-size-1/6000197186351'
-path = 'descendant-or-self::text()' #'//*[@class="price-current"]/div/text()'
+path = '//*[@class="price-current"]/div/text()'
 test_scrap(url, path)
 '''
 from selenium import webdriver
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from lxml import html
+from time import sleep
+from selenium.webdriver.common.by import By
 
-binary = FirefoxBinary('/home/gtohill/PythonProjects/PythonLibrary/Web_Scrapping/geckodriver32')
-browser = webdriver.Firefox(firefox_binary=binary)
+def manipstring(a):
+    p = a.split('.')
+    st = ''
+    x = 0
+    while x < len(p):
+        if x == 0:
+            st = p[x].strip() + '.'
+        else:
+            st = st + p[x].strip()
 
-browser.get('http://www.garytohill.com')
+        x += 1
+    price = st.split('$')
+    return(float(price[1]))
+
+
+binary = './geckodriver'
+browser = webdriver.Firefox(executable_path=binary)
+browser.get('https://www.walmart.ca/en/ip/tommee-tippee-closer-to-nature-tommee-tippee-simplee-diaper-pail-in-pink-with-4-refill-cartridges/6000196744478?rrid=richrelevance')
+login_form = browser.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div[5]/div/div[2]/div[2]/div[1]/div[1]")
+st = login_form.text
+price = manipstring(st)
+print(price)
+
+browser.close()
+'''
